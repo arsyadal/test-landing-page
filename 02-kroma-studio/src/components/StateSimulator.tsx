@@ -46,7 +46,7 @@ export const StateSimulator: React.FC<StateSimulatorProps> = ({ currentState, on
               onClick={() => onChangeState(s.id)}
               className={`px-3 py-1.5 text-xs font-mono rounded-md transition-all cursor-pointer ${
                 currentState === s.id
-                  ? 'bg-emerald-500 text-slate-950 font-semibold shadow-xs'
+                  ? 'bg-emerald-500 text-emerald-950 font-semibold shadow-xs'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >

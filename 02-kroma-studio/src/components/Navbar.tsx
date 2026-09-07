@@ -22,7 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, onToggleTheme }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand Identity */}
         <a href="#playground" className="flex items-center gap-2.5 group cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-500 rounded p-1">
-          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-slate-950 font-mono font-bold text-sm shadow-xs group-hover:scale-105 transition-transform">
+          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-emerald-950 font-mono font-bold text-sm shadow-xs group-hover:scale-105 transition-transform">
             <Cpu className="w-4 h-4" />
           </div>
           <div className="flex flex-col">

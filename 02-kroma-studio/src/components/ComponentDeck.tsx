@@ -290,7 +290,7 @@ export const ComponentDeck: React.FC<ComponentDeckProps> = ({ isDark }) => {
                     ? 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm'
                     : buttonState === 'processing'
                     ? 'bg-slate-800 text-slate-300 cursor-wait'
-                    : 'bg-emerald-500 text-slate-950 font-semibold'
+                    : 'bg-emerald-500 text-emerald-950 font-semibold'
                 }`}
                 aria-label="Trigger interactive shader compilation lifecycle"
               >
@@ -317,7 +317,7 @@ export const ComponentDeck: React.FC<ComponentDeckProps> = ({ isDark }) => {
                   )}
                   {buttonState === 'success' && (
                     <>
-                      <Check className="w-4 h-4 text-slate-950" />
+                      <Check className="w-4 h-4 text-emerald-950" />
                       COMPILED SUCCESSFULLY
                     </>
                   )}

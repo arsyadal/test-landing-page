@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ isDark }) => {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-slate-800/40">
           <div className="space-y-1.5">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded bg-emerald-500 flex items-center justify-center text-slate-950 font-mono font-bold text-xs">
+              <div className="w-6 h-6 rounded bg-emerald-500 flex items-center justify-center text-emerald-950 font-mono font-bold text-xs">
                 <Cpu className="w-3.5 h-3.5" />
               </div>
               <span className="font-mono font-bold text-sm tracking-wider text-slate-200 uppercase">

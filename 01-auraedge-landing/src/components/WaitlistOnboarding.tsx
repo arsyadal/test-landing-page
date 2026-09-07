@@ -75,7 +75,7 @@ export const WaitlistOnboarding: React.FC<WaitlistOnboardingProps> = ({ isDark }
 
           {status === 'success' ? (
             <div className="mt-8 p-6 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-center animate-in fade-in duration-300">
-              <div className="w-12 h-12 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center mx-auto mb-3 font-bold">
+              <div className="w-12 h-12 rounded-full bg-emerald-500 text-emerald-950 flex items-center justify-center mx-auto mb-3 font-bold">
                 <Check className="w-6 h-6" />
               </div>
               <h3 className="text-base font-semibold text-emerald-400 font-mono">

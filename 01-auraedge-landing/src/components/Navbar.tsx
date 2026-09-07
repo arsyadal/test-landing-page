@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, onToggleTheme }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand */}
         <a href="#" className="flex items-center gap-2.5 rounded focus-visible:ring-2 focus-visible:ring-emerald-500">
-          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-slate-950 shadow-xs">
+          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-emerald-950 shadow-xs">
             <Cpu className="w-4 h-4" />
           </div>
           <div className="flex flex-col">
