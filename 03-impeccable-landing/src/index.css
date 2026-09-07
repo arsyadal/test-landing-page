@@ -1,27 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
-  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+@theme {
+  --font-sans: 'Chakra Petch', 'Inter', -apple-system, sans-serif;
+  --font-mono: 'Space Mono', monospace;
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: 'Chakra Petch', 'Inter', -apple-system, sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
   caret-color: #E07A5F;
 }
 
-/* Impeccable requirement: Tabular numbers for all telemetry readouts */
+h1, h2, h3, h4 {
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: -0.02em;
+}
+
 .tabular-nums, code, pre, .font-mono {
-  font-family: var(--font-mono);
+  font-family: 'Space Mono', monospace;
   font-feature-settings: 'tnum' 1, 'zero' 1;
 }
 
-/* Impeccable requirement: Browser surface theming */
 ::selection {
-  background: rgba(224, 122, 95, 0.28);
+  background: rgba(224, 122, 95, 0.35);
   color: #F1F4F7;
 }
 
