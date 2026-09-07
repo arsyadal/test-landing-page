@@ -1,30 +1,39 @@
 # Test Landing Page & UI Craft Suite
 
-Repository eksperimen UI/UX modern berbasis **React 19**, **Vite**, **Tailwind CSS v4**, dan **Bun**, dirancang menggunakan standar **UI/UX Pro Max**, komponen taktil terinspirasi **21st.dev**, mematuhi filosofi **Anti-Slop**, serta dioptimasi untuk pengujian dengan **Impeccable** (v4.2.2).
+Repository eksplorasi perbandingan desain antarmuka modern menggunakan **React 19**, **Vite**, **Tailwind CSS v4**, dan **Bun**, membandingkan tiga filosofi pembuatan frontend:
 
-Repository ini terdiri dari 2 folder proyek terpisah:
-
-```
+```text
 test-landing-page/
-├── 01-auraedge-landing/    # Landing Page Utuh (AuraEdge Distributed Edge Runtime)
-├── 02-kroma-studio/        # Component & Neural Shader Playground (Kroma Lab)
+├── 01-auraedge-landing/    # Proyek 1: Full Tech SaaS Landing Page (AuraEdge Edge Platform)
+├── 02-kroma-studio/        # Proyek 2: Neural Shader & Tactile 21st.dev Component Studio (Kroma Lab)
+├── 03-impeccable-landing/  # Proyek 3: Editorial Industrial Precision (Chronicle Observability Engine)
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 📁 1. `01-auraedge-landing/` — Full Tech Landing Page
-Landing page produk SaaS / Developer Tool yang utuh dan fungsional:
-* **Global PoP Edge Simulator**: Pilihan 5 region (Tokyo, Frankfurt, Silicon Valley, Singapore, London) dengan visualisasi hop propagasi dan perintah cURL.
-* **Interactive Stream Sandbox**: Pengujian kompresi JSON, injeksi header geolokasi, dan redaksi token DLP dengan metrik reduksi byte real-time.
-* **Architecture Showcase**: Komparasi benchmark isolat V8 dan dua kartu *magnetic spotlight* ala 21st.dev.
-* **Dynamic Pricing Calculator**: Slider volume request bulanan & durasi komputasi dengan kalkulasi biaya dan estimasi penghematan cloud.
-* **Technical FAQ**: Accordion teknis dengan navigasi keyboard (`Enter`/`Space`).
-* **Developer Onboarding Form**: Form interaktif dengan validasi format email, spinner loading, dan selebrasi confetti.
-* **Dual Theme**: Dark Mode (OLED) & Light Mode dengan kontras WCAG AA.
+## 🏛️ Perbandingan 3 Filosofi Desain
 
-### Menjalankan `01-auraedge-landing`:
+| Aspek | 01. AuraEdge (SaaS Landing) | 02. Kroma Lab (Component Studio) | 03. Chronicle (Pure Impeccable) |
+|---|---|---|---|
+| **Kategori / Mode** | Persuade (Tech Platform) | Operate (Interactive Playground) | Persuade & Instrument (Industrial Precision) |
+| **Inspirasi Gaya** | Modern Developer Infrastructure | 21st.dev Tactile Micro-Interactions | Swiss Modernist / Dieter Rams / Braun Instruments |
+| **Karakter Visual** | Dark OLED base dengan border halus | High-density canvas visualizer | Deep obsidian, copper accent, zero template cards |
+| **Aturan Judul** | Standard clear title | Interactive title bar | **NO kicker / eyebrow badge** (Impeccable craft floor) |
+| **Struktur Konten** | Simulator PoP + Sandbox + Pricing | Interactive Canvas + 4 Component Deck | Broadsheet schematic + Signal Scrubber + Ledger |
+| **Skor Impeccable Detect** | **0 anti-patterns** | **0 anti-patterns** | **0 anti-patterns** |
+
+---
+
+## 📁 1. `01-auraedge-landing/` — Full Tech Landing Page
+* **Global PoP Edge Simulator**: Pilihan 5 region global dengan latensi riil dan cURL command.
+* **Interactive Stream Sandbox**: Minifier, Geo Headers, dan DLP Redactor dengan kalkulasi penghematan byte real-time.
+* **Architecture Showcase**: Komparasi benchmark isolat V8 dan 2 kartu *magnetic spotlight* ala 21st.dev.
+* **Dynamic Pricing Calculator**: Slider volume request dan durasi komputasi dengan kalkulasi biaya instan.
+* **Technical FAQ**: Accordion teknis beroperasi penuh via keyboard.
+* **Waitlist Form**: Siklus state lengkap (idle, loading, error validation, dan konfirmasi confetti).
+
 ```bash
 cd 01-auraedge-landing
 bun install
@@ -34,17 +43,15 @@ bun dev --port 5174
 ---
 
 ## 📁 2. `02-kroma-studio/` — Neural Shader & Component Studio
-Studio eksplorasi visual dan komponen mikro taktil:
-* **Procedural Canvas Shader Engine**: 3 mode matematika real-time (Plasma Waves, Particle Swarm, Voronoi Cells) dengan slider frekuensi, velocity, dan matriks titik.
+* **Procedural Canvas Engine**: 3 algoritma matematika (Plasma Waves, Particle Swarm, Voronoi Cells).
 * **Tactile 21st.dev Component Deck**:
-  * 01 // Magnetic 3D Euler Tilt Card dengan radial cursor light beam
-  * 02 // Kinetic Spring Sliding Tabs dengan keyboard navigation
-  * 03 // Multi-State Morphing Action Button dengan progress simulation & confetti
+  * 01 // Magnetic 3D Euler Tilt Card dengan radial light spotlight
+  * 02 // Kinetic Spring Sliding Tabs
+  * 03 // Multi-State Morphing Action Button dengan progress simulation
   * 04 // Tactile Numeric Grid Stepper
-* **Interface State Machine Simulator**: State active, loading shimmer, empty repository, dan error recovery boundary.
-* **Production Code Exporter**: Modal pengekspor kode komponen React mandiri dengan salin ke clipboard.
+* **Interface State Machine**: Simulasi state nominal, shimmer skeleton, empty state, dan error boundary.
+* **Code Exporter**: Modal pengekspor kode komponen React mandiri.
 
-### Menjalankan `02-kroma-studio`:
 ```bash
 cd 02-kroma-studio
 bun install
@@ -53,28 +60,36 @@ bun dev --port 5173
 
 ---
 
-## 🔍 Cara Menguji dengan Impeccable
-
-### 1. Deteksi Otomatis Anti-Pattern (CLI Detector)
-Jalankan detektor 61 aturan kualitas desain Impeccable langsung dari root repository:
+## 📁 3. `03-impeccable-landing/` — Pure Impeccable Craft
+Dibangun 100% mematuhi aturan ketat **Impeccable Craft Floor** (`craft-floor.md`):
+* **Bebas dari Rut AI**: Judul tegas tanpa *kicker/eyebrow badge*, tanpa teks gradien, tanpa kartu-kartu kotak generik, tanpa *monospace as a costume*.
+* **Live Dual-Trace Oscilloscope Canvas**: Kanvas 60 FPS merender gelombang sinyal pembawa (Channel A Copper) dan pulsa jam sinkron (Channel B Phosphor), dengan knob skala timebase (10µs - 200µs), voltage gain, dan kontrol freeze.
+* **Historical Telemetry Scrubber**: Slider garis waktu temporer (-60s hingga 0s) dengan penanda anomali interaktif dan diagnosis akar masalah riil.
+* **Deterministic Hardware Bus Schematic**: Skema pipa data zero-copy horizontal (AF_XDP socket, lockless ring buffer, AVX-512 SIMD, direct NVMe).
+* **Engineering Pricing Ledger**: Buku besar transparan biaya node komputasi dedicated dengan slider ukuran kuorum klaster.
+* **Command-Line Access Terminal**: Terminal registrasi berbasis identitas dengan validasi format dan generasi token sesi.
+* **Browser Surfaces Theming**: Seleksi teks kustom (`::selection`), warna kursor caret, tabular figures (`font-feature-settings: 'tnum' 1, 'zero' 1`), dan scrollbar industri.
 
 ```bash
-# Uji folder 01 (AuraEdge Landing Page)
-npx impeccable detect 01-auraedge-landing/src
-
-# Uji folder 02 (Kroma Component Studio)
-npx impeccable detect 02-kroma-studio/src
+cd 03-impeccable-landing
+bun install
+bun dev --port 5175
 ```
 
-### 2. Perintah Prompt Impeccable di AI Agent (OMP / Claude)
-Gunakan perintah Impeccable untuk mengevaluasi dan memoles desain:
+---
 
-| Perintah | Deskripsi | Contoh Pemakaian |
-|---|---|---|
-| `/audit [target]` | Evaluasi teknis: aksesibilitas, kontras, responsivitas, dan performa | `/audit 01-auraedge-landing` |
-| `/critique [target]` | Tinjauan desain UX mendalam dengan heuristic scoring | `/critique 01-auraedge-landing` |
-| `/polish [target]` | Poles kualitas akhir antarmuka sebelum siap rilis | `/polish 01-auraedge-landing` |
-| `/bolder [target]` | Tingkatkan visual jika antarmuka terasa terlalu aman atau datar | `/bolder 02-kroma-studio` |
-| `/quieter [target]` | Redam elemen jika visual terlalu mencolok atau ramai | `/quieter 01-auraedge-landing` |
-| `/distill [target]` | Sederhanakan antarmuka, hapus elemen yang tidak esensial | `/distill 01-auraedge-landing` |
-| `/harden [target]` | Uji ketahanan produksi (edge cases, error boundary, i18n) | `/harden 01-auraedge-landing` |
+## 🔍 Pengujian Otomatis Impeccable
+
+Jalankan detektor 61 aturan kualitas desain Impeccable pada masing-masing folder:
+
+```bash
+# Uji Proyek 1
+npx impeccable detect 01-auraedge-landing/src
+
+# Uji Proyek 2
+npx impeccable detect 02-kroma-studio/src
+
+# Uji Proyek 3
+npx impeccable detect 03-impeccable-landing/src
+```
+Semua proyek menghasilkan **0 anti-patterns / 0 findings**.
